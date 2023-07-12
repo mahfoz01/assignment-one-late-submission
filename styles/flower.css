@@ -44,8 +44,160 @@ nav {
     padding: 20px 43px;
 }
 
-.banner .profile-pic{
+.banner .profile-pic {
     width: 635px;
     height: 800px;
 
 }
+
+/*main related styles*/
+
+main {}
+
+main section {}
+
+/*Feature section styles*/
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 160px;
+}
+
+#featured-flower {
+    padding: 30px 150px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.flower-container {
+    display: flex;
+}
+
+.pink-flower {
+    background-color: #A7216226;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    margin-left: 150px;
+}
+
+.pink {
+    padding: 110px 80px;
+}
+
+.red-flower {
+    background-color: #0597A026;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.red {
+    padding: 117px 47px 47px 51px;
+}
+
+.yellow-flower {
+    background-color: #477D1126;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    margin-right: 150px;
+}
+
+.yellow {
+    padding: 67px 75px;
+}
+
+.text {
+    display: flex;
+    margin-bottom: 34px;
+}
+
+.pink-text {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.red-text {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.yellow-text {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.pink-tree {
+    margin-left: 270px;
+}
+
+.red-tree {
+    margin-left: 300px;
+    margin-right: 280px;
+}
+
+.yellow-tree {
+    margin-right: 160px;
+}
+
+.service-container {
+    display: flex;
+    gap: 24;
+    margin-left: 200px;
+}
+
+.service {
+    background-color: #2727270D;
+    padding: 80px;
+    border-radius: 10px;
+    margin: 120px 0px;
+}
+
+.service-title{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.delivery{
+    padding-left: 130px;
+}
+
+.call{
+    padding-left: 90px;
+    padding-right: 80px;
+
+}
+
+.product{
+    padding-left: 50px;
+}
+
